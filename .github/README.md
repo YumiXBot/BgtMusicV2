@@ -21,7 +21,7 @@
 <h4>Click the button below to deploy BGT Music on Heroku!</h4>    
 
 <a
-href="https://heroku.com/deploy?template=https://github.com/BikashHalderNew/BgtMusicV2"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-darkblue?style=for-the-badge&logo=Heroku" width="220"
+href="https://heroku.com/deploy?template=https://github.com/YumiXBot/BgtMusicV2"><img src="https://img.shields.io/badge/Deploy%20On%20Heroku-darkblue?style=for-the-badge&logo=Heroku" width="220"
 hieght="38.30" /></a>
 
 ## 🔗 Support & Updates :
