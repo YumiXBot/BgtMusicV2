@@ -4,13 +4,13 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["astart"]
+PING_COMMAND : ["aping"]
+START_COMMAND : ["start"]
 HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
+SETTINGS_COMMAND : ["asettings", "asetting"]
 RELOAD_COMMAND : ["admincache", "reload"]
-GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+GSTATS_COMMAND : ["agstats"]
+STATS_COMMAND : ["astats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -50,7 +50,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["asudolist"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast"]
