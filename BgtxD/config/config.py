@@ -47,7 +47,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/BikashHalderNew/BgtMusicV2",
+    "https://github.com/YumiXBot/BgtMusicV2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Bikash")
 
@@ -56,10 +56,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/AloneXBots"
 )  # Example:- https://t.me/bikashgadgettech
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/Alonesheaven"
 )  # Example:- https://t.me/bgt_chat
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -76,13 +76,13 @@ AUTO_SUGGESTION_TIME = int(
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "True")
 
 # Time sleep duration For Youtube Downloader
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
@@ -151,7 +151,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/2b378c44b9e18ab43d6bf.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
